@@ -10,23 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/41f1e86e1f.js" crossorigin="anonymous"></script>
+    <script src="js files/customel.js"></script>
 </head>
 <body>
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="images/logo.png" ></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="html/about.html">ABOUT</a></li>
-                    <li><a href="html/course.html">COURSES</a></li>
-                    <li><a href="html/blog.html">BLOG</a></li>
-                    <li><a href="html/contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav>
+        <my-header></my-header>
 
         <div class="text-box">
             <h1>World's Biggest University</h1>
@@ -183,25 +171,10 @@
 
 <!-- -----------------------------------------------footer------------------------ -->
 
-<section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Eligendi, quo error, a asperiores maiores corrupti <br>
-          aperiam vero amet ipsum rerum nulla cumque! 
-          Exercitationem, fugit.</p>
-    <div class="icons">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-youtube"></i>
-    </div>
-    <p> Made with <i class="fa-regular fa-heart"></i> by Ajay Kumar</p>
-</section>
-
-
+<my-footer></my-footer>
 
 <!-- -----------------script for toggle Menu--------------- -->
-<script src="js.js"></script>
+<script src="js files/responsive.js"></script>
 
 </body>
 </html>
